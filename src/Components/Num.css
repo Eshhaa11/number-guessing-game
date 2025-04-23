@@ -25,3 +25,5 @@ input[type=number] {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.button button:hover {
