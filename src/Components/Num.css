@@ -30,6 +30,7 @@ input[type=number] {
     background-color: #45a049;;
 }
 
-..message { 
+.message { 
     font-weight: bold;
+    margin-top: 15px;
 }
