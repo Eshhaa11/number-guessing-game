@@ -23,5 +23,7 @@ function NumGuessGame () {
         if (num === target) {
             setMessage(`🎉 Correct! It took you ${attempts + 1} tries.`);
         } else if (num < target) {
+            setMessage('📉 Too low!');
+        } else {
 
 }
