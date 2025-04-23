@@ -31,5 +31,5 @@ input[type=number] {
 }
 
 ..message { 
-    
+    font-weight: bold;
 }
