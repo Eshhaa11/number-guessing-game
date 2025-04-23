@@ -6,7 +6,7 @@ function getRandomNum () {
 }
 
 function NumGuessGame () {
-    const [target, setTarget] = useState(getRandomNumber());
+    const [target, setTarget] = useState(getRandomNum());
     const [guess, setGuess] = useState('');
     const [message, setMessage] = useState('');
     const [attempts, setAttempts] = useState(0);
@@ -31,7 +31,7 @@ function NumGuessGame () {
 
   const resetGame = () => {
 
-    setTarget(getRandomNumber());
+    setTarget(getRandomNum());
     setGuess('');
     setMessage('');
     setAttempts(0);
