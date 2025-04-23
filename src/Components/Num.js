@@ -36,4 +36,23 @@ function NumGuessGame () {
     setMessage('');
     setAttempts(0);
   };
+
+  return (
+    <div className="game-box">
+      <h2>🔢 Guess the Number</h2>
+      <input
+        type="number"
+        value={guess}
+        placeholder="Enter your guess"
+        onChange={(e) => setGuess(e.target.value)}
+      />
+      <div className="buttons">
+        <button onClick={handleGuess}>Guess</button>
+        <button onClick={resetGame}>Reset</button>
+      </div>
+      <p className="message">{message}</p>
+    </div>
+  );
 }
+
+export default NumGuessGame;
