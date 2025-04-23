@@ -29,4 +29,5 @@ function NumGuessGame () {
     }
   };
 
+  const resetGame = () => {
 }
