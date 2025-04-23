@@ -20,4 +20,7 @@ function NumGuessGame () {
 
         setAttempts(prev => prev + 1);
 
+        if (num === target) {
+            setMessage(`🎉 Correct! It took you ${attempts + 1} tries.`);
+
 }
