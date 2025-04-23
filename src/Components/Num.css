@@ -21,4 +21,5 @@ input[type=number] {
     padding:  10px 20px;
     background-color:  #50b553;
     border: none;
+    color: white;
 }
