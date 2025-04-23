@@ -30,4 +30,10 @@ function NumGuessGame () {
   };
 
   const resetGame = () => {
+
+    setTarget(getRandomNumber());
+    setGuess('');
+    setMessage('');
+    setAttempts(0);
+  };
 }
