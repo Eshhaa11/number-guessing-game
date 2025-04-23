@@ -25,5 +25,8 @@ function NumGuessGame () {
         } else if (num < target) {
             setMessage('📉 Too low!');
         } else {
+            setMessage('📈 Too high!');
+    }
+  };
 
 }
