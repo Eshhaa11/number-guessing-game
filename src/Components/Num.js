@@ -8,4 +8,5 @@ function getRandomNum () {
 function NumGuessGame () {
     const [target, setTarget] = useState(getRandomNumber());
     const [guess, setGuess] = useState('');
+    const [message, setMessage] = useState('');
 }
