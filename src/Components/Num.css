@@ -22,4 +22,5 @@ input[type=number] {
     background-color:  #50b553;
     border: none;
     color: white;
+    border-radius: 6px;
 }
