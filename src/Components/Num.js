@@ -11,4 +11,11 @@ function NumGuessGame () {
     const [message, setMessage] = useState('');
     const [attempts, setAttempts] = useState(0);
 
+    const handleGuess = () => {
+        const num = parseInt(guess);
+        if (isNaN(num)) {
+          setMessage('⚠️ Please enter a valid number!');
+          return;
+        }
+
 }
