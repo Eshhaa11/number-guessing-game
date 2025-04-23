@@ -18,4 +18,6 @@ function NumGuessGame () {
           return;
         }
 
+        setAttempts(prev => prev + 1);
+
 }
