@@ -38,7 +38,7 @@ function NumGuessGame () {
   };
 
   return (
-    <div className="game-box">
+    <div className="game-cont">
       <h2>🔢 Guess the Number</h2>
       <input
         type="number"
@@ -46,7 +46,7 @@ function NumGuessGame () {
         placeholder="Enter your guess"
         onChange={(e) => setGuess(e.target.value)}
       />
-      <div className="buttons">
+      <div className="button">
         <button onClick={handleGuess}>Guess</button>
         <button onClick={resetGame}>Reset</button>
       </div>
