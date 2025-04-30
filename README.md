@@ -1,3 +1,5 @@
+![App Screenshot](src/assets/num.jpg)
+
 # 🎯 Number Guessing Game 
 
 A fun and interactive **number guessing game** built with React. Users try to guess a randomly generated number with helpful hints like “Too high” or “Too low”. 
